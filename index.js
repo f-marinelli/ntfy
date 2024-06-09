@@ -58,7 +58,7 @@ const publishEvent = async (request, response, next) => {
 
 app.post('/publish/:subscriberId', publishEvent);
 
-const PORT = 8080;
+const PORT = 80;
 
 app.listen(PORT, () => {
   console.log(`Facts Events service listening at http://localhost:${PORT}`)
