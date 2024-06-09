@@ -1,0 +1,16 @@
+{
+  "name": "ntfy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.3"
+  }
+}
