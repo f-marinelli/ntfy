@@ -63,3 +63,5 @@ const PORT = 80;
 app.listen(PORT, () => {
   console.log(`Facts Events service listening at http://localhost:${PORT}`)
 })
+
+module.exports = app;
